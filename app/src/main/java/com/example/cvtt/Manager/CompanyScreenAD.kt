@@ -320,7 +320,7 @@ fun sendFCMHttpV1Notification(
 
             val requestBody = json.toString().toRequestBody("application/json".toMediaType())
             val request = Request.Builder()
-                .url("https://fcm.googleapis.com/v1/projects/tt-jobss/messages:send")
+                .url("https://fcm.googleapis.com/v1/projects/"your_project"/messages:send")
                 .addHeader("Authorization", "Bearer $accessToken")
                 .addHeader("Content-Type", "application/json")
                 .post(requestBody)
