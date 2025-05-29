@@ -78,9 +78,9 @@ class MainActivity : ComponentActivity() {
             MediaManager.get()
         } catch (e: IllegalStateException) {
             val config = hashMapOf(
-                "cloud_name" to "dgny2gq8p",
-                "api_key" to "353722888398141",
-                "api_secret" to "N_G6ilvhWyknNmwmHTVEaUWSPrs"
+                "cloud_name" to "your_cloud_key",
+                "api_key" to "your_api_key",
+                "api_secret" to "your_api_secret"
             )
             MediaManager.init(this, config)
         }
