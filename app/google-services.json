@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "364118489680",
+    "project_id": "tt-jobss",
+    "storage_bucket": "tt-jobss.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364118489680:android:7e951a2c6af03ca190af55",
+        "android_client_info": {
+          "package_name": "com.example.cvtt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCyTfgH8ma1MB0oXm4lSbAg2EeDUYnP4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364118489680:android:21c39001b3ddedaa90af55",
+        "android_client_info": {
+          "package_name": "com.example.ttjobs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCyTfgH8ma1MB0oXm4lSbAg2EeDUYnP4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
