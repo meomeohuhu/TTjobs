@@ -14,8 +14,8 @@ import javax.mail.internet.MimeMessage
 object MailSender {
     private const val SMTP_HOST = "smtp.gmail.com"
     private const val SMTP_PORT = "587"
-    private const val USERNAME = "nvhau1231@gmail.com"
-    private const val PASSWORD = "dpen dtbg dnuz semc" // App Password của Gmail
+    private const val USERNAME = ""
+    private const val PASSWORD = "" // App Password của Gmail
 
     suspend fun send(
         toEmail: String,
